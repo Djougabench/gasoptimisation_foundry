@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity 0.8.19;
 
-//import "@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract GasContract is //Ownable {
+contract GasContract is Ownable {
     //States Variables ---------------------------------------
     uint256 public tradeFlag = 1;
     uint256 public dividendFlag = 1;
